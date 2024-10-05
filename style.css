@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  overflow: visible;
+  top: 20%;
+  left: 0;
+  background-image: url("Images/black.jpg");
+  outline: #00ff33 solid 10px;
+  border-radius: 1em;
+}
+
+.bolderText {
+  font-weight: bold;
+}
+
+div {
+  background-color: white;
+}
+
+#titleCard {
+  max-width: 100%;
+}
+
+#neonLine {
+  height: 100%;
+  width: fit-content;
+}
+
+body {
+
+  image-rendering: auto;
+  background-image: url("Gifs/bspace.gif");
+  background-size: 400px;
+  font-family: 'Pixel', Courier, monospace;
+}
+
+#mainPanel {
+  background-color: transparent;
+  border: turquoise solid 10px;
+  position: fixed;
+  width: 70%;
+  left: 25%;
+  top: 20%;
+  text-align: center;
+  color: white;
+  
+}
+
+@font-face {
+  font-family: "Pixel";
+  src: url("Fonts/rainyhearts.ttf");
+}
+
+#emailDiv {
+  background: white;
+  margin: 5px;
+  text-align: center;
+  image-rendering: pixelated;
+  align-items: center;
+  border-radius: 1em;
+  border: #f32091 solid 10px;
+}
+
+#aboutMeDiv {
+  background: white;
+  margin: 5px;
+  text-align: center;
+  image-rendering: pixelated;
+  align-items: center;
+  border-radius: 1em;
+  border: #52c5ff solid 0.3em;
+  -moz-background-origin: ;
+}
+
+
+#menuItem3 {
+  background: white;
+  margin: 5px;
+  text-align: center;
+  image-rendering: pixelated;
+  align-items: center;
+  border-radius: 1em;
+  border: #0bfefa solid 10px;
+}
+
+#sidePanel1 {
+  background-color: white;
+  object-fit: scale-down;
+}
+
+#mailDiv {
+  background-color: black;
+  border: turquoise solid 10px;
+  position: fixed;
+  width: 50%;
+  left: 25%;
+  top: 20%;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+
+}
+
+#mainTitle {
+  background-color: #62f4fe;
+  padding: 1%;
+  text-align: center;
+  outline: 5px;
+  outline-style: solid;
+  outline-color: black;
+}
+
+#memeAudio {
+  margin-top: 20px;
+}
